@@ -1,0 +1,70 @@
+@import "variable.css";
+
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-1 {
+  width: 100%;
+  margin-top: 15px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more__profile {
+  width: 55px;
+  height: 55px;
+  border-radius: 40%;
+}
+
+.more__center {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.more__name {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.more__content {
+  margin-top: 6px;
+  font-size: 17px;
+  color: #AAAAAA;
+}
+
+.more__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 30px;
+}
+
+.more__btns {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+}
+
+.more__btns__item {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__btns__item p {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.more__btns__item i {
+  font-size: 40px;
+  color: #666666;
+}
