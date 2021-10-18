@@ -1,0 +1,20 @@
+@import "status-bar.css";
+@import "default.css";
+@import "login.css";
+@import "navigation.css";
+@import "main-bar.css";
+@import "friends.css";
+@import "variable.css";
+@import "chats.css";
+@import "search.css";
+@import "more.css";
+@import "chatting.css";
+@import "title-bar.css";
+
+body {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
