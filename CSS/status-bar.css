@@ -1,0 +1,32 @@
+.status-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  background-color: inherit;
+}
+
+.status-bar__left {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.status-bar__center {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar__right {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.status-bar__right p {
+  margin: 0px 3px;
+}
