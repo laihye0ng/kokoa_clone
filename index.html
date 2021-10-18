@@ -9,27 +9,31 @@
     <link rel="stylesheet" href="CSS/style.css">
   </head>
   <body>
-    <div class="status-bar">
-      <p class="status-bar__left">KT</p>
-      <p class="status-bar__center">10:10</p>
-      <div class="status-bar__right">
-        <i class="fas fa-signal"></i>
-        <p>50%</p>
-        <i class="fas fa-battery-half"></i>
+    <div class="good">
+      <div class="status-bar">
+        <p class="status-bar__left">KT</p>
+        <p class="status-bar__center">10:10</p>
+        <div class="status-bar__right">
+          <i class="fas fa-signal"></i>
+          <p>50%</p>
+          <i class="fas fa-battery-half"></i>
+        </div>
       </div>
+
+      <header class="login__welcome">
+        <h1>Welcome to KakaoTalk</h1>
+        <p>If you have a Kakao Account,<br>log in with your email or phone number.</p>
+      </header>
+
+      <form class="login__input" action="HTML/friends.html" method="get">
+        <input type="text" placeholder="Email or phone number"/>
+        <input type="password" placeholder="Password"/>
+        <input class="login__btn" type="submit" value="Log In"/>
+        <a href="#">Find Kakao Account or Password</a>
+      </form>
     </div>
-
-    <header class="login__welcome">
-      <h1>Welcome to KakaoTalk</h1>
-      <p>If you have a Kakao Account,<br>log in with your email or phone number.</p>
-    </header>
-
-    <form class="login__input" action="HTML/friends.html" method="get">
-      <input type="text" placeholder="Email or phone number"/>
-      <input type="password" placeholder="Password"/>
-      <input class="login__btn" type="submit" value="Log In"/>
-      <a href="#">Find Kakao Account or Password</a>
-    </form>
+    
+    <p class="too-big">Your screen is too big!</p>
     
     <script src="https://kit.fontawesome.com/f05931b2c3.js" crossorigin="anonymous">
     </script>
