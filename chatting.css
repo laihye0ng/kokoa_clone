@@ -1,0 +1,52 @@
+.chatting {
+  background-color: rgb(171, 193, 209);
+}
+
+.chatting__input {
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatting__input input {
+  border: 1px solid #DDDDDD;
+  background-color: #F0F0F0;
+  width: 90%;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.chatting__input i {
+  color: #888888;
+}
+
+.chatting__input i:first-child {
+  font-size: 22px;
+  padding: 3px;
+  border: 3px solid #888888;
+  border-radius: 30%;
+}
+
+.chatting__input__smile {
+  font-size: 28px;
+  position: absolute;
+  bottom: 12px;
+  right: 50px;
+}
+
+.chatting__input i:last-child {
+  color: black;
+  font-size: 24px;
+  padding: 4px;
+  background-color: yellow;
+  border: 0.5px solid #BBBBBB;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 11px;
+  right: 15px;
+}
