@@ -1,0 +1,89 @@
+@import "variable.css";
+
+.friends {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.friends__info {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  background-color: #F9F9F9;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+
+.friends__info i {
+  margin: 0px 5px;
+  color: #CCCCCC;
+}
+
+.friends__info p {
+  font-size: 18px;
+  color: #333333;
+}
+
+.friends__myaccount {
+  margin: 10px 20px 0px 20px;
+  height: 100%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid var(--line);
+}
+
+.friends__myaccount img {
+  width: 65px;
+  height: 65px;
+  border-radius: 40%;
+}
+
+.friends__myaccount h2 {
+  margin-left: 17px;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.friends__channel {
+  margin: 12px 20px;
+}
+
+.friends__channel__title {
+  display: flex;
+  justify-content: space-between;
+  color: #AAAAAA;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+.friends__channel__account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.friends__channel__account div {
+  display: flex;
+  align-items: center;
+}
+
+.friends__channel__account img {
+  width: 45px;
+  height: 45px;
+  border-radius: 40%;
+}
+
+.friends__channel__account h3 {
+  padding-left: 10px;
+  font-size: 21px;
+}
+
+.friends__channel__account p {
+  color: #AAAAAA;
+}
