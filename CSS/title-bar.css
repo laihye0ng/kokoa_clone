@@ -1,0 +1,27 @@
+.title-bar {
+  width: 100%;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;;
+  padding: 10px 15px;
+  background-color: inherit;
+  position: fixed;
+}
+
+.title-bar i:first-child {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title-bar p {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-bar span {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
